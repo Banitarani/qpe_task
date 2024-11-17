@@ -1,0 +1,214 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+#para {
+  background-color: black;
+  color: aliceblue;
+  height: 30px;
+  text-align: center;
+  padding: 3px;
+}
+.nav {
+  display: flex;
+  gap: 60.5em;
+}
+.nav1 {
+  display: flex;
+  gap: 1em;
+  margin-top: 10.5px;
+}
+
+.signUpForm {
+  max-width: 500px;
+  border: 5px solid plum;
+  border-radius: 20px;
+  background-color: rgb(1, 121, 121);
+  box-shadow: 10px 5px 5px 5px plum;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding-left: 30px;
+}
+.signUpForm input {
+  max-width: 300px;
+  margin-top: 5px;
+  padding: 10px 0;
+  font-size: 1rem;
+  border: 1px solid black;
+}
+#signupBtn {
+  width: 100px;
+  height: 30px;
+  font-size: 1.1rem;
+  border-radius: 10px;
+}
+
+.signUpForm button:hover {
+  background-color: rgb(235, 186, 202);
+  cursor: pointer;
+}
+#goLoginBtn {
+  width: 100px;
+  height: 30px;
+  margin-top: 9px;
+  padding: 10px 0;
+  font-size: 1.1rem;
+  border-radius: 10px;
+  color: blue;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.goLogin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  font-size: 1.1rem;
+  margin-right: 150px;
+}
+.loginForm {
+  max-width: 500px;
+  border: 4px solid rgb(80, 38, 1);
+  border-radius: 20px;
+  background-color: burlywood;
+  box-shadow: 10px 5px 5px 5px rgb(108, 61, 3);
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding-left: 30px;
+}
+.loginForm input {
+  max-width: 300px;
+  margin-top: 5px;
+  padding: 10px 0;
+  font-size: 1rem;
+  border: 2px solid black;
+  border-radius: 20px;
+}
+.loginForm button:hover {
+  background-color: rgb(143, 81, 1);
+  cursor: pointer;
+}
+#loginBtn {
+  width: 100px;
+  height: 30px;
+  font-size: 1.1rem;
+  border-radius: 10px;
+}
+#dashboard button {
+  width: 300px;
+  margin-top: 20px;
+  background-color: rgb(11, 235, 235);
+  border: none;
+  padding: 10px;
+  color: white;
+  font-size: 1rem;
+}
+#dashboard button:hover {
+  cursor: pointer;
+}
+.img {
+  display: flex;
+  gap: 11.5em;
+}
+/* .content {
+  margin-top: 50px;
+} */
+h1 {
+  font-size: 60px;
+}
+.butt {
+  width: 100px;
+  margin-top: 20px;
+  background-color: rgb(2, 36, 36);
+  border: none;
+  padding: 10px;
+  color: white;
+  font-size: 1rem;
+}
+.butt:hover {
+  cursor: pointer;
+}
+.orna{
+ display: flex;
+ gap: 5.5rem;
+}
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.footer-section {
+  flex: 1;
+  margin: 10px;
+  min-width: 200px;
+}
+
+.footer-section h3 {
+  margin-bottom: 15px;
+  font-size: 18px;
+  border-bottom: 2px solid #555;
+  padding-bottom: 5px;
+}
+
+.footer-section p, .footer-section ul {
+  font-size: 14px;
+  line-height: 1.6;
+  color: aliceblue;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+  color: #bbb;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+  color: white;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.social-icons img {
+  width: 24px;
+  height: 24px;
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  border-top: 1px solid #555;
+  padding-top: 10px;
+}
+.brand{
+  display: flex;
+  flex-direction: column;
+  margin-top: 65px;
+}

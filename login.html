@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- sign up button -->
+    <section id="signup">
+      <div class="signUpForm">
+        <h2>Sign Up</h2>
+        <label for="username">Username:</label>
+        <input
+          type="text"
+          id="username"
+          name="username"
+          required
+          placeholder="Enter Username"
+        />
+        <label for="useremail">Useremail: </label>
+        <input
+          type="email"
+          id="useremail"
+          name="useremail"
+          required
+          placeholder="Enter Useremail"
+        />
+        <label for="userpassword">Userpassword</label>
+        <input
+          type="password"
+          id="userpassword"
+          name="userpassword"
+          placeholder="Enter Userpassword"
+        />
+        <button id="signupBtn">Sign Up</button>
+      </div>
+      <div class="goLogin">
+        <p>Already have an account...</p>
+        <button id="goLoginBtn">Login</button>
+      </div>
+    </section>
+    <!-- login form -->
+    <section id="login" style="display: none">
+      <div class="loginForm">
+        <h2>Login Form</h2>
+        <label for="loginUseremail">Useremail:</label>
+        <input
+          type="text"
+          id="loginUseremail"
+          name="loginUseremail"
+          placeholder="Enter user email"
+        />
+        <label for="loginPassword">Password:</label>
+        <input
+          type="password"
+          id="loginPassword"
+          name="loginPassword"
+          placeholder="Enter password"
+        />
+        <button id="loginBtn">Login</button>
+      </div>
+    </section>
+
+    <section id="dashboard" style="display: none">
+      <h2 id="usernameDisplay"></h2>
+      <button id="logoutBtn">Logout</button>
+    </section>
+    <script src="index.js"></script>
+  </body>
+</html>
